@@ -1,0 +1,185 @@
+.App{
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  height: 100vh;
+}
+.main-screen h1{
+  margin-top: 0;
+}
+.home {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images5.alphacoders.com/389/389247.png');
+  background-size: 100%;
+}
+.home-card {
+  border: 4px solid black;
+  background-color: rgba(219, 219, 236, 0.767);
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+}
+.home-card input {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: center;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+.home-card button {
+  margin-left: 10px;
+  border: 3px solid #ccc;
+  padding: 12px 20px;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+.home-card button:hover {
+  background-color: rgb(233, 67, 67);
+}
+.home-card img {
+  width: 50px;
+  height: 50px;
+}
+.home-card h1 {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+.home-card h2 {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 1000%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.card-pokemon{
+  width: 200px;
+  border-radius: 10px;
+
+  color: white;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 30%, rgba(237,45,253,1) 99%);
+}
+.card-pokemon img {
+  width: 100%;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.pagination-container {
+  display: inline-block;
+}
+.pagination-number-container{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+.pagination-prev-next{
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  width: 40px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23869d;
+  border-radius: 8px;
+}
+.page-number {
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  width: 40px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.page-active{
+  background-color: #23869d;
+  color: white;
+}
+.moves { 
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.movements {
+  border-radius: 15px;
+  border: 5px solid rgb(28, 200, 223);
+  width: 90%;
+}
+.content-img img:hover { 
+  -webkit-transform: rotateY(360deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(360deg);
+  transform-style: preserve-3d;
+  transition: 2s;
+  
+}
+.type {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.types {
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  border-radius: 10px;
+  border: 5px solid rgb(28, 200, 223);
+  margin: 20px;
+}
+
+.ability {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.abilities {
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  border-radius: 10px;
+  border: 5px solid rgb(28, 200, 223);
+  margin: 20px;
+}
+.moves li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  background-color: #e5e5e5;
+  border-radius: 900px;
+  margin: 10px;
+}
