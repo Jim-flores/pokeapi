@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url('https://images5.alphacoders.com/389/389247.png'); */
+  background-image: url('https://images5.alphacoders.com/389/389247.png');
   background-size: 100%;
 }
 .home-card {
