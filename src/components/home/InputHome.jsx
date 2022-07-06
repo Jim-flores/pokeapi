@@ -21,7 +21,7 @@ const InputHome = ({clickLogged}) => {
       navigate('/pokedex')
     }else{
       alert('Ingresa tu nombre de entrenador')
-      navigate('/home')
+      navigate('/')
     }
 
   }

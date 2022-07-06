@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/home' element={<HomeScreen setIsLogged = {setIsLogged}/>} />
+        <Route path='/' element={<HomeScreen setIsLogged = {setIsLogged}/>} />
         <Route element={<ProtectedRoutes isLogged = {isLogged}/>}>
           <Route path='/pokedex' element={<PokedexScreen />} />
           <Route path='/pokedex/:id' element={<PokeInfoScreen />} />

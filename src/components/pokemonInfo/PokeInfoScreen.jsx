@@ -35,9 +35,9 @@ const PokeInfoScreen = () => {
       <h2>Abilityes</h2>
       <div className='ability'>
         {
-          pokemonInfo?.abilities.map(hability => (
+          pokemonInfo?.abilities.map(ability => (
             <div className='abilities'>
-              <label key={hability.ability.url}>{hability.ability.name}</label>
+              <label key={ability.ability.url}>{ability.ability.name}</label>
             </div>
           ))
         }
